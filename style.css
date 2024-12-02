@@ -444,18 +444,20 @@ header.sticky{
         gap: 3rem;
     }
     .exb-img{
-         margin: 0 auto;
-         text-align: center;
-         order: 2;
+        margin: 0 auto;
+        text-align: center;
+        order: 2;
     }
     .row h5{
         font-size: 35px;
     }
 }
-
 @media(max-width:960px){
     section{
         padding: 80px 2% 80px;
+    }
+    .footer{
+        padding: 10px 2%;
     }
     .home-img img{
         max-width: 380px;
@@ -464,7 +466,7 @@ header.sticky{
         object-fit: contain;
     }
     .about-img img{
-        max-width: 380px;
+        max-width: 380;
         height: 100%;
         width: 100%;
         object-fit: contain;
@@ -478,6 +480,7 @@ header.sticky{
         --p-font: 15px;
     }
 }
+
 @media(max-width:830px){
     .arrow-box{
         display: none;
@@ -494,29 +497,31 @@ header.sticky{
         margin: 0 auto;
     }
     .home-img img{
-        max-width: 450px;
+        max-width: 430px;
         height: 100%;
         width: 100%;
         object-fit: contain;
     }
     .about{
         grid-template-columns: 1fr;
+        padding-top: 180px;
     }
-
     .about-img{
         order: 2;
         text-align: center;
         margin: 0 auto;
     }
     .about-img img{
-        max-width: 200px;
+        max-width: 430px;
         height: 100%;
         width: 100%;
         object-fit: contain;
     }
+
     #menu-icon{
         display: initial;
     }
+
     .navlinks{
         position: absolute;
         width: 100%;
@@ -530,6 +535,7 @@ header.sticky{
         backdrop-filter: blur(30px);
         transition: all .7s ease-in-out;
     }
+
     .navlinks a{
         display: block;
         padding: 0;
@@ -537,24 +543,46 @@ header.sticky{
         font-size: 1.8rem;
         font-weight: 400;
     }
-   .navlinks.open{
-    left: 0;
-   }
+    .navlinks.open{
+        left: 0;
+
+    }
 }
+
 @media(max-width:700px){
     .home{
         height: 95vh;
     }
     section{
-        padding: 70px 2%;
+        padding: 70px 2%
     }
-    .logo img{
+    contact-content{
+        padding: 10px;
+    }
+
+    .s-links a{
+        padding: 10px 18px;
+        font-size: 13px;
+        margin: 5px 4px;
+    }
+
+    .logo-img{
         max-width: 30px;
     }
     .n-btn{
         padding: 10px 20px;
         font-size: 13px;
     }
+
+    .about{
+        grid-template-columns: 1fr;
+        padding-top: 350px;
+    }
+
 }
+
+
+
+
 
 
