@@ -494,7 +494,7 @@ header.sticky{
         margin: 0 auto;
     }
     .home-img img{
-        max-width: 100px;
+        max-width: 450px;
         height: 100%;
         width: 100%;
         object-fit: contain;
